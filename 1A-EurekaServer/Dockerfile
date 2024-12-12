@@ -1,4 +1,4 @@
-FROM openjdk:8u131-jdk-alpine
+FROM openjdk:17-jdk-alpine
 MAINTAINER "Ashu"
 EXPOSE 7000
 COPY ./target/DockerFile.jar  DockerFile.jar
